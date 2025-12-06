@@ -1,0 +1,16 @@
+{
+  // Enable automatic loading of .env files in terminal
+  "python.terminal.useEnvFile": true,
+  
+  // Specify which .env files to load (optional, defaults to .env in workspace root)
+  "python.envFile": "${workspaceFolder}/backend/.env",
+  
+  // Additional Python settings
+  "python.defaultInterpreterPath": "${workspaceFolder}/backend/venv/Scripts/python.exe",
+  
+  // Terminal settings
+  "terminal.integrated.env.windows": {
+    // Environment variables will be automatically loaded from .env file
+  }
+}
+
